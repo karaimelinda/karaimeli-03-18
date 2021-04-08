@@ -3,6 +3,16 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(500)
     basic.showString("Szia!")
 })
+input.onGesture(Gesture.Shake, function () {
+    basic.clearScreen()
+    basic.pause(500)
+    véletlen = Math.randomBoolean()
+    if (véletlen == true) {
+        basic.showString("Igaz")
+    } else {
+        basic.showString("Hamis")
+    }
+})
 input.onButtonPressed(Button.AB, function () {
     basic.clearScreen()
     basic.pause(500)
@@ -13,6 +23,7 @@ input.onButtonPressed(Button.B, function () {
     basic.pause(500)
     basic.showNumber(2021)
 })
+let véletlen = false
 basic.showIcon(IconNames.Happy)
 basic.forever(function () {
 	
