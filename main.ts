@@ -8,9 +8,9 @@ input.onGesture(Gesture.Shake, function () {
     basic.pause(500)
     véletlen = Math.randomBoolean()
     if (véletlen == true) {
-        basic.showString("Igaz")
+        basic.showIcon(IconNames.Ghost)
     } else {
-        basic.showString("Hamis")
+        basic.showNumber(5)
     }
 })
 input.onButtonPressed(Button.AB, function () {
