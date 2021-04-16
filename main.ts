@@ -24,7 +24,7 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(2021)
 })
 let véletlen = false
-basic.showString("FEJ_IRAS")
+basic.showIcon(IconNames.Ghost)
 basic.forever(function () {
 	
 })
