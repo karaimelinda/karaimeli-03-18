@@ -1,8 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-    basic.clearScreen()
-    basic.pause(500)
-    basic.showString("Szia!")
-})
 input.onGesture(Gesture.Shake, function () {
     basic.clearScreen()
     basic.pause(500)
@@ -13,18 +8,8 @@ input.onGesture(Gesture.Shake, function () {
         basic.showNumber(5)
     }
 })
-input.onButtonPressed(Button.AB, function () {
-    basic.clearScreen()
-    basic.pause(500)
-    basic.showNumber(randint(5, 15))
-})
-input.onButtonPressed(Button.B, function () {
-    basic.clearScreen()
-    basic.pause(500)
-    basic.showNumber(2021)
-})
 let véletlen = false
-basic.showIcon(IconNames.Ghost)
+basic.showString("FEJ_IRAS")
 basic.forever(function () {
 	
 })
